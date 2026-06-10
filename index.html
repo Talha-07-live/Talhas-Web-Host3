@@ -249,12 +249,12 @@ document.exitFullscreen();
 function updateNetwork(){
 
 networkEl.innerText =
-navigator.onLine ? "Online" : "Offline";
+navigator.onLine ? "Talha's Stream is Online" : "Talha's Stream is Offline";
 
 }
 
-window.addEventListener("online",updateNetwork);
-window.addEventListener("offline",updateNetwork);
+window.addEventListener("Talha's Stream is Online",updateNetwork);
+window.addEventListener("Talha's Stream is Offline",updateNetwork);
 
 updateNetwork();
 </script>
